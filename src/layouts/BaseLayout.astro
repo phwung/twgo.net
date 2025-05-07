@@ -1,0 +1,23 @@
+---
+// src/layouts/BaseLayout.astro
+import Header from '../components/Header.astro'; // Ensure this import is correct
+import Footer from '../components/Footer.astro';
+const { title } = Astro.props;
+---
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="台灣圍棋網 - {title}" />
+  <title>{title}</title>
+  <link rel="stylesheet" href="/styles/global.css" />
+</head>
+<body>
+  <Header /> <!-- Ensure this is included -->
+  <main>
+    <slot />
+  </main>
+  <Footer />
+</body>
+</html>

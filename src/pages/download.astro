@@ -1,0 +1,69 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+<BaseLayout title="檔案下載">
+  <section class="download-page">
+    <h1>檔案下載</h1>
+    <p>下載台灣圍棋網的客戶端軟體及相關資源。</p>
+
+    <div class="download-table">
+      <table>
+        <thead>
+          <tr>
+            <th>大小</th>
+            <th>檔案名稱</th>
+            <th>版本</th>
+            <th>作業系統</th>
+            <th>下載</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>4807K</td>
+            <td>台灣圍棋網客戶端安裝軟體</td>
+            <td>V31702</td>
+            <td>Windows All</td>
+            <td><a href="http://twgo.net/twgo31702.exe" class="download-link">下載</a></td>
+          </tr>
+          <tr>
+            <td>4680K</td>
+            <td>圍棋圖書館系統</td>
+            <td>V3.06</td>
+            <td>Windows All</td>
+            <td><a href="http://twgo.net/GOlibrary306.exe" class="download-link">下載</a></td>
+          </tr>
+          <tr>
+            <td>4055K</td>
+            <td>圍棋圖書館系統資料庫</td>
+            <td>V1.00</td>
+            <td>Windows All</td>
+            <td><a href="http://twgo.net/GOlibDB.exe" class="download-link">下載</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="instructions">
+      <h2>台灣圍棋網安裝說明</h2>
+      <p>您所下載的台灣圍棋網客戶端安裝軟體是一個自行解壓縮的執行檔。下載後請進行安裝，快速按兩下檔名，就進入安裝程序。</p>
+
+      <h2>台灣圍棋網登入說明</h2>
+      <p>不用註冊，只要您的暱名與其他人不同即可。</p>
+      <ul>
+        <li>暱名(2至5個中文或3至8個英文字)。</li>
+        <li>密碼最多10個英文字。</li>
+      </ul>
+      <p>不能登入，可能有以下原因：</p>
+      <ul>
+        <li>未能連線，請檢查網路連線或者主機可能維修中。</li>
+        <li>暱名已被使用，請換個暱名登入(第一次登入最有可能發生之現象)。</li>
+        <li>暱名與密碼不符合，請檢查暱名與密碼，注意大小寫。</li>
+        <li>暱名不雅。</li>
+      </ul>
+    </div>
+
+    <div class="back-to-home">
+      <a href="/" class="cta-button">回首頁</a>
+    </div>
+  </section>
+</BaseLayout>
