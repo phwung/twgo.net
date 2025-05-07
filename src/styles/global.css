@@ -326,3 +326,25 @@ p.red-text {
   .vaa-content ul li {
     margin-bottom: 0.5rem;
   }
+
+/* Minnit Chat Widget Container */
+#minnit-chat-widget-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 350px; /* Adjust if needed after testing */
+  height: 500px; /* Adjust if needed after testing */
+  z-index: 1000; /* Ensure it floats above other content */
+  /* The Minnit embed's data-style might control the inner iframe size.
+     If the chat widget itself is too small or large within this container,
+     we might need to adjust these or target the iframe specifically. */
+}
+
+/* Optional: If Minnit's iframe needs specific sizing within the container */
+/*
+#minnit-chat-widget-container iframe {
+  width: 100% !important;
+  height: 100% !important;
+  border: none; 
+}
+*/
