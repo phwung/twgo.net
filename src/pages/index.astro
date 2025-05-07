@@ -1,6 +1,8 @@
 ---
 // src/pages/index.astro
+
 import BaseLayout from '../layouts/BaseLayout.astro';
+import '../styles/global.css';
 ---
 <BaseLayout title="台灣圍棋網 - 首頁">
   <!-- Introduction Section -->
@@ -18,12 +20,5 @@ import BaseLayout from '../layouts/BaseLayout.astro';
       <li>增長智慧</li>
     </ul>
     <a href="/download">下載客戶端軟體</a>
-  </section>
-
-  <!-- Library System Section -->
-  <section id="library-system">
-    <h2>圍棋書館系統</h2>
-    <p>圍棋書館系統是圍棋數據化資料庫。內容涵蓋圍棋各個領域，包含有入門、佈局、手筋、官子、攻防、死活、定石、年鑑、古譜、專輯、細解、棋力測試等。可無限擴充，是行家的選擇。</p>
-    <a href="/download">下載</a>
   </section>
 </BaseLayout>

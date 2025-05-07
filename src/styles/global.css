@@ -9,8 +9,8 @@
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.6;
-  background-color: #f8f9fa; /* Lighter, cleaner background */
-  color: #343a40; /* Default text color - slightly darker */
+  background-color: #faf0e6; /* Linen - a soft, warm off-white */
+  color: #4a3b31; /* Dark Brownish Gray */
 }
 
 /* Header and Footer Styles */
@@ -19,14 +19,14 @@ body {
 footer {
   text-align: center;
   padding: 20px; /* Increased padding */
-  background-color: #343a40; /* Consistent dark background */
-  color: #f8f9fa; /* Light text */
+  background-color: #5d4037; /* Brown */
+  color: #fdf6e3; /* Creamy off-white */
   margin-top: 30px; /* Space above footer */
 }
 
 /* Navigation Bar - adapted from previous styles.css and global.css */
 nav {
-  background-color: #343a40; /* Dark Gray Background from styles.css */
+  background-color: #5d4037; /* Brown */
   padding: 15px 0; /* Increased padding */
   text-align: center;
   display: flex; /* Added from global.css nav */
@@ -35,7 +35,7 @@ nav {
 }
 
 nav a {
-  color: #f8f9fa; /* Light text color for contrast */
+  color: #fdf6e3; /* Creamy off-white for contrast */
   text-decoration: none;
   padding: 12px 25px; /* Adjusted padding */
   transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
@@ -65,7 +65,7 @@ section {
 
 /* Headings - adapted from styles.css */
 h1, h2, h3, h4, h5, h6 {
-  color: #212529; /* Darker, more modern heading color */
+  color: #3e2723; /* Darker Brown */
   margin-bottom: 15px; /* Space below headings */
 }
 
@@ -84,12 +84,12 @@ ol { list-style-type: decimal; }
 
 /* Links - adapted from styles.css */
 a {
-  color: #00796b; /* Primary color from original global.css */
+  color: #556b2f; /* DarkOliveGreen */
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 a:hover {
-  color: #004d40; /* Darker shade of primary on hover */
+  color: #3a4a1f; /* Darker OliveGreen */
   text-decoration: underline; /* Underline on hover for clarity */
 }
 
@@ -102,8 +102,8 @@ p.red-text {
 /* Home Page Styles - Preserving specific styles from original global.css */
 /* These might need adjustment if they conflict with new section/heading styles */
   .hero {
-    background-color: #00796b;
-    color: white;
+    background-color: #556b2f; /* DarkOliveGreen */
+    color: #fdf6e3; /* Creamy off-white */
     padding: 4rem 2rem;
     text-align: center;
   }
@@ -121,8 +121,8 @@ p.red-text {
   .cta-button {
     display: inline-block;
     padding: 0.75rem 1.5rem;
-    background-color: #ffc107;
-    color: #333;
+    background-color: #ffc107; /* Keeping gold for CTA */
+    color: #4a3b31; /* Dark Brownish Gray */
     text-decoration: none;
     border-radius: 4px;
     font-size: 1.1rem;
@@ -141,7 +141,7 @@ p.red-text {
   .about h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #00796b;
+    color: #556b2f; /* DarkOliveGreen */
   }
   
   .about p {
@@ -151,14 +151,14 @@ p.red-text {
   
   .mission {
     padding: 2rem;
-    background-color: #e0f7fa;
+    background-color: #f0e6d2; /* Light Beige/Cream */
     text-align: center;
   }
   
   .mission h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
-    color: #00796b;
+    color: #556b2f; /* DarkOliveGreen */
   }
   
   .mission-grid {
@@ -178,7 +178,7 @@ p.red-text {
   .mission-card h3 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
-    color: #00796b;
+    color: #556b2f; /* DarkOliveGreen */
   }
   
   .mission-card p {
@@ -195,7 +195,7 @@ p.red-text {
   .library h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #00796b;
+    color: #556b2f; /* DarkOliveGreen */
   }
   
   .library p {
@@ -212,7 +212,7 @@ p.red-text {
   }
   
   .download-page h1 {
-    color: #00796b;
+    color: #556b2f; /* DarkOliveGreen */
     font-size: 2.5rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -243,16 +243,16 @@ p.red-text {
   }
   
   .download-table th {
-    background-color: #00796b;
-    color: white;
+    background-color: #556b2f; /* DarkOliveGreen */
+    color: #fdf6e3; /* Creamy off-white */
   }
   
   .download-table tr:hover {
-    background-color: #f4f4f4;
+    background-color: #e9e0d2; /* Lighter shade of beige for hover */
   }
   
   .download-link {
-    color: #00796b;
+    color: #556b2f; /* DarkOliveGreen */
     text-decoration: none;
     font-weight: bold;
   }
@@ -266,7 +266,7 @@ p.red-text {
   }
   
   .instructions h2 {
-    color: #00796b;
+    color: #556b2f; /* DarkOliveGreen */
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
@@ -294,7 +294,7 @@ p.red-text {
   }
   
   .vaa-page h1 {
-    color: #00796b;
+    color: #556b2f; /* DarkOliveGreen */
     font-size: 2.5rem;
     margin-bottom: 1rem;
     text-align: center;
@@ -313,7 +313,7 @@ p.red-text {
   }
   
   .vaa-content h2 {
-    color: #00796b;
+    color: #556b2f; /* DarkOliveGreen */
     font-size: 1.5rem;
     margin-bottom: 1rem;
   }
