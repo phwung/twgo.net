@@ -34,3 +34,4 @@ jobs:
           github_token: ${{ secrets.GH_PAT }}
           publish_dir: dist
           publish_branch: gh-pages
+          cname: twgo.net
