@@ -2,16 +2,36 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import '../styles/global.css';
 ---
-<BaseLayout title="Support TWGO.net">
+
+<BaseLayout title="支持台灣圍棋網">
   <section id="donation-page">
-<h2>支持台灣圍棋網</h2>
-<p>您的支持有助於我們維護和改進台灣圍棋網。請考慮透過 Ko-fi 捐款：</p>
+    <h2>支持台灣圍棋網</h2>
+    <p>
+      台灣圍棋網是眾多棋友共同的記憶與交流園地。雖然網站以早期技術開發，難以大幅更新，但我們仍希望盡力讓它持續穩定運作。
+      您的捐款將協助我們支付伺服器與基本維護費用，感謝您一起守護這份珍貴的圍棋傳承。
+    </p>
+
+    <p>
+      請考慮透過 Ko-fi 支持我們，涓滴相助，我們都將銘感於心。
+    </p>
+
     <div class="ko-fi-embed-container">
-      <iframe id='kofiframe' src='https://ko-fi.com/twgonet/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='twgonet'></iframe>
+      <iframe 
+        id="kofiframe" 
+        src="https://ko-fi.com/twgonet/?hidefeed=true&widget=true&embed=true&preview=true " 
+        style="border:none;width:100%;padding:4px;background:#f9f9f9;" 
+        height="712" 
+        title="Ko-fi 捐款小工具"
+        allow="payment"
+      ></iframe>
+      <!-- Optional: Show a loading message while iframe loads -->
+      <p style="text-align:center; margin-top:10px;">載入中，請稍候...</p>
     </div>
-<p>感謝您的慷慨！</p>
+
+    <p style="text-align:center;">感謝您的慷慨！</p>
+
     <div class="centered-button-container" style="margin-top: 30px;">
-<a href="https://www.twgo.net/twgo_setup.exe" class="cta-button">下載</a>
+      <a href="https://www.twgo.net/twgo_setup.exe " class="cta-button">下載</a>
     </div>
   </section>
 </BaseLayout>
