@@ -352,3 +352,10 @@ p.red-text {
   border: none; 
 }
 */
+
+/* Hide chat box on mobile devices */
+@media (max-width: 768px) {
+  #minnit-chat-widget-container {
+    display: none !important;
+  }
+}
