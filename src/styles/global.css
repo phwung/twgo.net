@@ -103,6 +103,54 @@ p.red-text {
   font-weight: bold; /* Make it stand out more */
 }
 
+/* Software UI Image Styles */
+.software-ui-container {
+  text-align: center;
+  margin: 25px 0;
+  padding: 20px;
+  background-color: #f8f9fa; /* Light gray background */
+  border-radius: 8px;
+  border: 1px solid #e9ecef;
+}
+
+.software-ui-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 2px solid #dee2e6;
+  transition: transform 0.2s ease-in-out;
+}
+
+.software-ui-image:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.image-caption {
+  margin-top: 12px;
+  font-size: 0.95rem;
+  color: #6c757d;
+  font-style: italic;
+  margin-bottom: 0;
+}
+
+/* Responsive adjustments for mobile */
+@media (max-width: 768px) {
+  .software-ui-container {
+    margin: 20px 0;
+    padding: 15px;
+  }
+  
+  .software-ui-image {
+    border-width: 1px;
+  }
+  
+  .software-ui-image:hover {
+    transform: none; /* Disable hover effects on mobile */
+  }
+}
+
 /* Home Page Styles - Preserving specific styles from original global.css */
 /* These might need adjustment if they conflict with new section/heading styles */
   .hero {
