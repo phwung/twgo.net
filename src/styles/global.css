@@ -103,6 +103,11 @@ p.red-text {
   font-weight: bold; /* Make it stand out more */
 }
 
+/* Introduction Section Styling */
+#introduction h2 {
+  text-align: center;
+}
+
 /* Software UI Image Styles */
 .software-ui-container {
   text-align: center;
